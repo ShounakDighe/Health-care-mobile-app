@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorsDetailsActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewDBTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AISSMS HealthCare"
+        android:textColor="#FFBB86FC"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver Location : Pune"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/ListViewlabtest"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:cacheColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonGoToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO to cart"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnBackB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

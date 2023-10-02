@@ -9,13 +9,35 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PaiteintTrackerApp"
+        android:theme="@style/Theme.PaiteintTracker"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.PaiteintTrackerApp.NoActionBar">
+            android:name=".CartLabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".labtestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
